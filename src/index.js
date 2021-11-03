@@ -7,7 +7,7 @@ app.get('/courses', (request, response) => {
 })
 
 app.post('/courses', (request, response) => {
-  return response.json(['Curso 4'])
+  return response.json(['Curso 1', 'Curso 2', 'Curso 3', 'Curso 4'])
 })
 
 app.put('/courses/:id', (request, response) => {
